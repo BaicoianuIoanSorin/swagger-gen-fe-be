@@ -18,6 +18,7 @@ import java.util.UUID;
 @Tag(name = "Users")
 @Produces(MediaType.APPLICATION_JSON)
 //TODO make it so it generates automatically --> @Info(title = "User services", version = "1.0.0", description = "Controller used for CRUD operation for user")
+//TODO every method returns 404 not found
 public interface UserResource {
     @POST
     @Path("/create")
