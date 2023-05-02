@@ -9,13 +9,14 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { User } from './user';
 import { HttpStatusCode } from './httpStatusCode';
 import { ResponseEntityVoidHeaders } from './responseEntityVoidHeaders';
 
 
-export interface ResponseEntityVoid { 
+export interface ResponseEntityUser { 
     headers?: ResponseEntityVoidHeaders;
-    body?: object;
+    body?: User;
     statusCode?: HttpStatusCode;
     statusCodeValue?: number;
 }

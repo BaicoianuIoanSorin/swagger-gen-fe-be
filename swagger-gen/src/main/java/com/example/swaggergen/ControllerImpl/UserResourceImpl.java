@@ -11,4 +11,9 @@ public class UserResourceImpl implements UserResource {
     public ResponseEntity<Void> createUser(User user) {
         return ResponseEntity.ok().build();
     }
+
+    @Override
+    public ResponseEntity<User> getUser(String userid) {
+        return ResponseEntity.ok(new User(userid));
+    }
 }

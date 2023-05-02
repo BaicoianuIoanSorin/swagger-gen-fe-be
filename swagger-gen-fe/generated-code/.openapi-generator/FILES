@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 README.md
 api.module.ts
 api/api.ts
@@ -18,6 +17,7 @@ model/httpHeadersHostAddress.ts
 model/httpStatusCode.ts
 model/mediaType.ts
 model/models.ts
+model/responseEntityUser.ts
 model/responseEntityVoid.ts
 model/responseEntityVoidHeaders.ts
 model/user.ts

@@ -7,6 +7,7 @@ export * from './httpHeadersHost';
 export * from './httpHeadersHostAddress';
 export * from './httpStatusCode';
 export * from './mediaType';
+export * from './responseEntityUser';
 export * from './responseEntityVoid';
 export * from './responseEntityVoidHeaders';
 export * from './user';
